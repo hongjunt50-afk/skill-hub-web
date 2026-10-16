@@ -1,0 +1,12 @@
+{
+  "name": "skill-hub-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Self-hosted web manager for local Agent skills: auto-categorize, trigger phrases, Chinese search, built-in recommendation agent, online/offline control, trash",
+  "scripts": {
+    "setup": "npm install && cd web && npm install && npm run build",
+    "start": "node server/index.js",
+    "dev:web": "cd web && npm run dev"
+  },
+  "license": "MIT"
+}
